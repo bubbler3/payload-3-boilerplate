@@ -22,8 +22,8 @@ if (process.env.RAILWAY_NEXT_PUBLIC_SERVER_URL) {
 }
 
 // Vérification finale
-console.log('PAYLOAD_SECRET présent:' + process.env.PAYLOAD_SECRET, !!process.env.PAYLOAD_SECRET)
-console.log('DATABASE_URI présent:' + process.env.DATABASE_URI, !!process.env.DATABASE_URI)
+console.log('PAYLOAD_SECRET présent: ' + process.env.PAYLOAD_SECRET, !!process.env.PAYLOAD_SECRET)
+console.log('DATABASE_URI présent: ' + process.env.DATABASE_URI, !!process.env.DATABASE_URI)
 
 // Lancer le build
 execSync('next build', { stdio: 'inherit' })
